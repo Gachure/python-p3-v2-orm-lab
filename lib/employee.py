@@ -132,6 +132,7 @@ class Employee:
         return employee
 
     @classmethod
+    
     def instance_from_db(cls, row):
         """Return an Employee object having the attribute values from the table row."""
 
